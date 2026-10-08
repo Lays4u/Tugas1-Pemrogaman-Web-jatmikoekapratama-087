@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portofolio Jatmiko Eka Pratama, mahasiswa Informatika yang belajar pengembangan web, algoritma, dan machine learning.">
+  <title>Jatmiko Eka Pratama - Portofolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="lewati" href="#konten">Lewati ke konten</a>
+
+  <header class="header">
+    <a class="logo" href="#beranda" aria-label="Kembali ke beranda">Lays4u</a>
+    <input type="checkbox" id="menu" class="menu-cek">
+    <label for="menu" class="menu-tombol" aria-label="Buka atau tutup menu"><span></span></label>
+    <nav aria-label="Navigasi utama">
+      <ul>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#keahlian">Keahlian</a></li>
+        <li><a href="#perjalanan">Perjalanan</a></li>
+        <li><a href="#proyek">Proyek</a></li>
+        <li><a href="#kontak" class="tombol-nav">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="konten">
+    <section id="beranda" class="hero" aria-labelledby="judul-hero">
+      <div class="hero-teks">
+        <p class="sapa">Halo, nama saya</p>
+        <h1 id="judul-hero">Jatmiko<br>Eka<br>Pratama</h1>
+        <p class="hero-deskripsi">Mahasiswa di Universitas Muhammadiyah Malang Jurusan Informatika</p>
+        <div class="aksi">
+          <a href="#proyek" class="tombol tombol-utama">Lihat proyek saya</a>
+          <a href="#kontak" class="tombol tombol-garis">Ajak ngobrol</a>
+        </div>
+      </div>
+      <figure class="potret">
+        <img src="img/foto.jpg" alt="Foto Jatmiko Eka Pratama mengenakan almamater merah" width="842" height="1024">
+        <figcaption>Terbuka untuk belajar dan kolaborasi</figcaption>
+      </figure>
+    </section>
+
+    <section id="tentang" class="blok" aria-labelledby="judul-tentang">
+      <h2 id="judul-tentang">Tentang saya</h2>
+      <div class="dua-kolom">
+        <div class="isi">
+          <p>Saya mahasiswa Informatika yang senang memahami cara kerja sesuatu sampai ke dasarnya. Di kelas saya mempelajari struktur data, algoritma, dan machine learning, lalu mencoba menerapkannya lewat proyek kecil.</p>
+          <p>Belakangan saya mulai belajar mengembangkan web. Bagi saya halaman yang bagus adalah halaman yang strukturnya jelas, mudah dibaca, dan nyaman dibuka di layar apa pun.</p>
+        </div>
+        <dl class="fakta">
+          <div><dt>Nama lengkap</dt><dd>Jatmiko Eka Pratama</dd></div>
+          <div><dt>Kampus</dt><dd>Universitas Muhammadiyah Malang</dd></div>
+          <div><dt>Program studi</dt><dd>Informatika</dd></div>
+          <div><dt>Sedang didalami</dt><dd>Web dan machine learning</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="keahlian" class="blok" aria-labelledby="judul-keahlian">
+      <h2 id="judul-keahlian">Keahlian</h2>
+      <ul class="keahlian">
+        <li>
+          <h3>Web frontend</h3>
+          <p>HTML5 semantik, CSS responsif, dasar JavaScript</p>
+        </li>
+        <li>
+          <h3>Algoritma</h3>
+          <p>Struktur data, pencarian, pengurutan, analisis kompleksitas</p>
+        </li>
+        <li>
+          <h3>Machine learning</h3>
+          <p>Python, pengolahan data, model klasifikasi dasar</p>
+        </li>
+        <li>
+          <h3>Aplikasi mobile</h3>
+          <p>Antarmuka lintas platform dengan React Native dan Expo</p>
+        </li>
+        <li>
+          <h3>Alat kerja</h3>
+          <p>VS Code, Git, GitHub, kerja kelompok</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="perjalanan" class="blok" aria-labelledby="judul-perjalanan">
+      <h2 id="judul-perjalanan">Perjalanan belajar</h2>
+      <ol class="garis-waktu">
+        <li>
+          <time datetime="2024">2024</time>
+          <h3>Mulai kuliah Informatika</h3>
+          <p>Belajar dasar pemrograman dan berpikir logis di Universitas Muhammadiyah Malang.</p>
+        </li>
+        <li>
+          <time datetime="2025">2025</time>
+          <h3>Mendalami struktur data dan algoritma</h3>
+          <p>Mulai mengerjakan soal-soal yang menuntut efisiensi, lalu berlanjut ke machine learning.</p>
+        </li>
+        <li>
+          <time datetime="2026">2026</time>
+          <h3>Praktikum web dan aplikasi mobile</h3>
+          <p>Membangun halaman web dari nol dan mengerjakan proyek aplikasi bersama tim.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="proyek" class="blok" aria-labelledby="judul-proyek">
+      <h2 id="judul-proyek">Proyek pilihan</h2>
+      <article class="proyek">
+        <div class="proyek-gambar biru" aria-hidden="true">&lt;/&gt;</div>
+        <div class="proyek-isi">
+          <h3>Landing page responsif</h3>
+          <p>Halaman promosi dengan struktur HTML semantik, tata letak yang menyesuaikan layar, dan palet warna yang konsisten.</p>
+          <ul class="tag"><li>HTML</li><li>CSS</li><li>Responsif</li></ul>
+        </div>
+      </article>
+      <article class="proyek terbalik">
+        <div class="proyek-gambar merah" aria-hidden="true">Arduino</div>
+        <div class="proyek-isi">
+          <h3>Project Arduino</h3>
+          <p>Project Arduino Seperti esp32 untuk modul lampu dan juga bisa untuk modul double stater</p>
+          <ul class="tag"><li>ESP32</li></ul>
+        </div>
+      </article>
+      <article class="proyek">
+        <div class="proyek-gambar kuning" aria-hidden="true">y=f(x)</div>
+        <div class="proyek-isi">
+          <h3>Eksperimen machine learning</h3>
+          <p>Latihan melatih dan mengevaluasi model sederhana pada data kuliah, dengan fokus memahami hasilnya.</p>
+          <ul class="tag"><li>Python</li><li>Data</li><li>Klasifikasi</li></ul>
+        </div>
+      </article>
+    </section>
+
+    <section id="kontak" class="blok" aria-labelledby="judul-kontak">
+      <div class="kontak">
+        <h2 id="judul-kontak">Mari bekerja sama</h2>
+        <p>Punya ide proyek, info lomba, atau sekadar ingin berdiskusi tentang kode? Kirim pesan saja.</p>
+        <address>
+          <ul>
+            <li><a href="mailto:Jatmikoeka@webmail.umm.ac.id">Jatmikoeka@webmail.umm.ac.id</a></li>
+            <li><a href="https://github.com/Lays4u" target="_blank" rel="noopener">GITHUB</a></li>
+            <li><a href="https://www.instagram.com/jatmikoeka_p/" target="_blank" rel="noopener">Instagram</a></li>
+          </ul>
+        </address>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Jatmiko Eka Pratama.</p>
+  </footer>
+</body>
+</html>
